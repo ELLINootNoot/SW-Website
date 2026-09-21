@@ -1,0 +1,40 @@
+/* Compact spacing on phones while retaining all content and diagram geometry. */
+@media (max-width: 720px) {
+  .section { padding-block: 44px; }
+  .section h2 { margin-block: 20px; }
+  .about-grid, .section-heading, .detail-heading, .record-title, .contact { gap: 18px; }
+  .section-heading, .detail-heading { margin-bottom: 28px; }
+  .section-heading h2, .detail-heading h2 { margin-bottom: 0; }
+  .hero { padding-bottom: 36px; }
+  .hero h1 { margin-block: 24px; }
+  .hero-actions { margin-top: 24px; }
+  .hero-proof { margin-top: 28px; }
+  .hero-card { margin-top: 24px; padding: 20px; }
+  .principles { margin-top: 24px; padding-top: 20px; gap: 14px; }
+  .purpose-grid { margin-top: 26px; }
+  .purpose-grid article, .reason-grid article, .expertise-grid article,
+  .service-list article, .approach-grid article { padding: 20px; min-height: 0; }
+  .purpose-grid h3, .reason-grid h3, .expertise-grid h3,
+  .approach-grid h3 { margin-top: 16px; }
+  .purpose-grid p, .reason-grid p, .expertise-grid p,
+  .service-list p, .approach-grid p { margin-bottom: 0; }
+  .reason-grid { gap: 12px; }
+  .service-list article > b { margin: 16px 0 10px; }
+  .service-list h3 { margin-block: 14px 10px; }
+  .product-card { padding: 20px; min-height: 0; }
+  .product-card h3 { margin-top: 16px; }
+  .card-line { left: 20px; right: 20px; }
+  .benefit-strip { margin-top: 20px; }
+  .benefit-strip span { padding: 14px; }
+  .product-story { margin-top: 22px; padding: 22px; gap: 18px; }
+  .ecosystem-graphic { margin-bottom: 28px; }
+  .company-visual { margin-top: 28px; }
+  .visual-intro { padding: 24px; }
+  .outcome-chips { margin-top: 14px; }
+  .about-impact { margin-block: 20px; }
+  .client-grid { margin-top: 28px; }
+  .contact-details { margin-top: 12px; }
+  .contact-details div { padding-block: 18px; }
+  .button-white { margin-top: 14px; }
+  footer { padding-block: 24px; gap: 16px; }
+}

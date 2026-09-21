@@ -1,0 +1,8 @@
+/* Warm brand-yellow sections with navy text and light reading surfaces. */
+.why { background: #fff0b3; }
+.approach { background: #ffe18a; }
+.why .section-label, .approach .section-label { color: #061b40; }
+.why h2 em, .approach h2 em { color: #0754d8; }
+.why .detail-heading > p, .approach .detail-heading > p { color: #334765; }
+.why .reason-grid article { background: #fffdf5; border-color: #e3c66e; }
+.approach .approach-grid article { background: #fffdf5; border-color: #e3c66e; }
